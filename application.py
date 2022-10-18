@@ -4,10 +4,6 @@
 # export FLASK_ENV=development
 # flask run
 
-# TODO : Read doc on huggingface summarization pipeline, e.g. what to do
-# if the text is very short, maybe don't summarize it if its not longer
-# than X words
-# TODO : Escape characters
 
 
 from flask import Flask, jsonify, request
